@@ -1,4 +1,4 @@
-from CTFd.utils import admins_only, is_admin, cache
+from CTFd.utils.decorators import admins_only, is_admin, cache
 from CTFd.models import db
 from .models import Containers
 

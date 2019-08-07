@@ -1,5 +1,5 @@
 from flask import current_app as app, render_template, request, redirect, jsonify, url_for, Blueprint
-from CTFd.utils import admins_only, is_admin, cache
+from CTFd.utils.decorators import admins_only, is_admin, cache
 from CTFd.models import db
 from .models import Containers
 
